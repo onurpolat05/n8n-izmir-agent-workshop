@@ -1,6 +1,6 @@
 # Remix · Asistanı kendi işine uyarla
 
-İskelet aynı kalıyor: **instructions + bir araç + bir skill + hafıza**. Değişen yalnızca ne iş yaptığı. Aşağıdakilerden birini seç ya da kendi fikrini dene.
+İskelet aynı kalıyor: **instructions + araçlar + bir skill + hafıza**. Değişen yalnızca ne iş yaptığı. Aşağıdakilerden birini seç ya da kendi fikrini dene.
 
 ## Çalışanlar için
 

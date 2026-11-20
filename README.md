@@ -2,7 +2,7 @@
 
 21 Kasım 2026 · FabrikaLab İzmir · n8n İzmir topluluğu
 
-Bugün n8n'in **Agents** özelliğiyle kendine bir asistan kuruyorsun. Kod yazmıyorsun; takıldığın her yerde bu repodaki hazır metni kopyalayıp yapıştırarak devam edebilirsin.
+Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruyorsun: havaya, hava kalitesine, denize ve nöbetçi eczanelere bakıp tek soruna cevap veren bir agent. Kod yazmıyorsun; takıldığın her yerde bu repodaki hazır metni kopyalayıp yapıştırarak devam edebilirsin.
 
 ## Akış
 
@@ -14,7 +14,7 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir asistan kuruyorsun. Kod yazm�
 | 14:00 | Hesap kontrolü: herkes Agents sekmesinde mi? |
 | 14:10 | Agents turu |
 | 14:40 | Mola |
-| 14:55 | Uygulama: İzmir asistanı ([02-izmir-asistani](02-izmir-asistani/)) |
+| 14:55 | Uygulama: İzmir şehir asistanı ([02-izmir-asistani](02-izmir-asistani/)) |
 | 15:45 | Remix: kendi işine uyarla ([03-remix](03-remix/)) |
 | 16:10 | Kapanış |
 | 16:20 | Network |
@@ -40,7 +40,7 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir asistan kuruyorsun. Kod yazm�
 | Klasör | İçinde ne var |
 |--------|---------------|
 | [01-workflow-w1](01-workflow-w1/) | Form → Sheets → Gmail workflow'u, 3 checkpoint JSON'u |
-| [02-izmir-asistani](02-izmir-asistani/) | Ana uygulama: instructions, hava durumu aracı, skill, örnek sorular |
+| [02-izmir-asistani](02-izmir-asistani/) | Ana uygulama: kurulum mesajı, 4 araç, skill, örnek sorular |
 | [03-remix](03-remix/) | Asistanı kendi işine uyarlama fikirleri |
 | [04-bonus-telegram](04-bonus-telegram/) | Eve dönünce: asistanı Telegram'a bağla |
 
@@ -48,7 +48,7 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir asistan kuruyorsun. Kod yazm�
 
 1. Elini kaldır, masalardaki ekip yanına gelir.
 2. İlgili checkpoint'in hazır metnini kopyala ve yapıştır.
-3. Agent cevap vermiyorsa: sohbet kutusunun altında **Test** seçili mi bak, yeni bir sohbet aç, sonra sağ panelde Model alanının dolu olduğunu kontrol et.
+3. Agent cevap vermiyorsa: sağ üstteki **Test agent** ile yeni bir sohbet aç, sonra Build sekmesinde Model alanının dolu olduğunu kontrol et.
 
 ## Etkinlikten sonra
 

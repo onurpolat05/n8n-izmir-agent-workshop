@@ -1,6 +1,6 @@
 # Checkpoint 3 · Skill + hafıza
 
-**Instructions** agent'ın kim olduğunu anlatır. **Skill** ise belirli bir işi nasıl yapacağını anlatan paketlenmiş bir tariftir; agent onu yalnız gerektiğinde açar. Böylece instructions kısa kalır ve iş tarifleri tek tek geliştirilebilir.
+**Instructions** agent'ın kim olduğunu anlatır. **Skill** ise belirli bir işi nasıl yapacağını anlatan paketlenmiş bir tariftir: agent onu yalnız gerektiğinde açar. Böylece talimat kısa kalır, iş tarifleri de tek tek geliştirilebilir.
 
 ## 3a · "Sabah brifi" skill'i
 
@@ -21,36 +21,36 @@ benzerini istediğinde kullan.
 Sabah brifini her zaman bu formatta ve bu sırayla ver, en fazla 6 satır:
 
 ☀️ Hava: <en düşük–en yüksek °C>, <yağmur olasılığı>, <rüzgâr yorumu>
+🌫️ Hava kalitesi: <Avrupa AQI değeri ve tek kelimelik yorum>
 👕 Ne giy: <tek satır somut öneri>
 🚲 Yol: <kullanıcının ulaşım tercihine göre tek satır not>
 📍 Bugün İzmir'de: <web aramasından 1 etkinlik, kaynak adıyla>
-💡 Öneri: <kullanıcının tercihlerine uyan tek bir küçük öneri>
 
 Kurallar:
-- Hava bilgisini mutlaka hava_durumu aracından al.
-- Kullanıcının hatırladığın tercihlerini (ulaşım, beslenme, semt) kullan.
-- Etkinlik bulamazsan o satırı "bugün öne çıkan bir şey bulamadım" diye yaz,
+- Hava bilgisini hava aracından, hava kalitesini hava_kalitesi aracından al.
+- Kullanıcının hatırladığın tercihlerini (ulaşım, semt, sevdiği şeyler) kullan.
+- Etkinlik bulamazsan o satıra "bugün öne çıkan bir şey bulamadım" yaz,
   uydurma.
 ```
 
 ## 3b · Hafıza
 
-Build sekmesinin en altında **Cross-session memory** düğmesini aç. Varsayılanı kapalı; kapalı kalırsa agent yeni sohbette seni unutur. (Session memory zaten hep açık, o yalnız aynı sohbetin içinde hatırlar.)
+Build sekmesinin en altında **Cross-session memory** düğmesini aç. Varsayılanı **kapalı**: kapalı kalırsa agent yeni sohbette seni unutur. (Session memory zaten hep açık, ama o yalnız aynı sohbetin içinde hatırlar.)
 
-**Test** modunda agent'a kendini tanıt:
+**Test agent**'ta kendini tanıt:
 
 ```
-Bornova'da oturuyorum, işe bisikletle gidiyorum, vejetaryenim
+Bornova'da oturuyorum, işe bisikletle gidiyorum
 ve kalabalıkları sevmem.
 ```
 
 ## Test
 
-**Yeni bir sohbet** aç (önceki sohbeti kapat) ve yaz: **"Sabah brifimi ver."**
+**Yeni bir sohbet** aç ve yaz: **"Sabah brifimi ver."**
 
-✅ Brif yukarıdaki formatta geliyor, hava Bornova'ya göre, yol satırı bisiklete göre ve öneri vejetaryen ise checkpoint 3 tamam.
+✅ Brif yukarıdaki formatta geliyorsa, yol satırı bisiklete göre yazılmışsa ve etkinlik önerisi kalabalık değilse checkpoint 3 tamam.
 
-Agent yeni sohbette seni hatırladıysa bu hafızadır. Formatı her seferinde tutturuyorsa bu da skill'dir.
+Agent yeni sohbette seni hatırladıysa bu **hafızadır**. Formatı her seferinde tutturuyorsa bu da **skill**'dir.
 
 ## Bonus · Her sabah 08:00
 
