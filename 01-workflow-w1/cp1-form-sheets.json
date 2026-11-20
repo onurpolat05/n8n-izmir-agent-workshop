@@ -1,0 +1,168 @@
+{
+  "name": "W1 · CP1 · Form → Sheets",
+  "nodes": [
+    {
+      "id": "60adced2-99ff-441c-86ae-52de4ad3efcd",
+      "name": "Başvuru Formu",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "d1e2cccd-d8f3-47f8-9e8c-0ce5b1e969c8",
+      "parameters": {
+        "formTitle": "n8n İzmir — Başvuru",
+        "formDescription": "Bilgilerini bırak, sana dönelim.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Ad Soyad",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "E-posta",
+              "fieldType": "email",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Şirket / Okul"
+            },
+            {
+              "fieldLabel": "Başvuru Tipi",
+              "fieldType": "dropdown",
+              "requiredField": true,
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Bireysel"
+                  },
+                  {
+                    "option": "Kurumsal"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "Mesaj",
+              "fieldType": "textarea"
+            }
+          ]
+        },
+        "options": {
+          "buttonLabel": "Gönder",
+          "respondWithOptions": {
+            "values": {
+              "respondWith": "text",
+              "formSubmittedText": "Teşekkürler, başvurun alındı!"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "14c13bb1-423a-4cab-abf8-9cb0809c96ac",
+      "name": "Sheets'e Yaz",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "resource": "sheet",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "",
+          "cachedResultName": "n8n İzmir Başvurular"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "",
+          "cachedResultName": "Sayfa1"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "schema": [
+            {
+              "id": "Ad Soyad",
+              "displayName": "Ad Soyad",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "E-posta",
+              "displayName": "E-posta",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Şirket / Okul",
+              "displayName": "Şirket / Okul",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Başvuru Tipi",
+              "displayName": "Başvuru Tipi",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Mesaj",
+              "displayName": "Mesaj",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "submittedAt",
+              "displayName": "submittedAt",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ]
+        },
+        "options": {}
+      }
+    }
+  ],
+  "connections": {
+    "Başvuru Formu": {
+      "main": [
+        [
+          {
+            "node": "Sheets'e Yaz",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}
