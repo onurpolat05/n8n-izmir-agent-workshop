@@ -10,8 +10,8 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 |------|--------------|
 | 13:00 | Kapı, check-in, ikram |
 | 13:30 | Açılış |
-| 13:40 | n8n nedir, workflow mantığı ([01-workflow-w1](01-workflow-w1/)) |
-| 14:00 | Hesap kontrolü: herkes Agents sekmesinde mi? |
+| 13:40 | Workflow mu, agent mı? Sahnede çalışan bir workflow |
+| 14:00 | Hesap kontrolü: sol menüde Assistant'ı görüyor musun? |
 | 14:10 | Agents turu |
 | 14:40 | Mola |
 | 14:55 | Uygulama: İzmir şehir asistanı ([02-izmir-asistani](02-izmir-asistani/)) |
@@ -23,6 +23,7 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 
 - **n8n Cloud deneme hesabı:** [n8n.io](https://n8n.io) üzerinden açılır. Daha önce deneme hesabı açtıysan yeni bir e-posta adresiyle aç.
 - **Laptop ve şarj aleti**
+- **WiFi:** `WizmirNET`. Şifre yok, ücretsiz kısa bir kayıtla bağlanılır.
 
 ## Workflow mu, agent mı?
 
@@ -39,7 +40,7 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 
 | Klasör | İçinde ne var |
 |--------|---------------|
-| [01-workflow-w1](01-workflow-w1/) | Form → Sheets → Gmail workflow'u, 3 checkpoint JSON'u |
+| [01-workflow-w1](01-workflow-w1/) | Evde dene: Form → Sheets → Gmail workflow'u, 3 checkpoint JSON'u |
 | [02-izmir-asistani](02-izmir-asistani/) | Ana uygulama: kurulum mesajı, 4 araç, skill, örnek sorular |
 | [03-remix](03-remix/) | Asistanı kendi işine uyarlama fikirleri |
 | [04-bonus-telegram](04-bonus-telegram/) | Eve dönünce: asistanı Telegram'a bağla |
@@ -52,6 +53,5 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 
 ## Etkinlikten sonra
 
-- Geri bildirim formu: <!-- link -->
-- n8n İzmir topluluğu: <!-- WA / LinkedIn linki -->
+- n8n Türkiye topluluğu: [LinkedIn grubu](https://www.linkedin.com/groups/39722002/). Sonraki etkinlikler burada duyuruluyor.
 - Sonraki etkinlik: n8n Women+ İzmir, 12 Aralık

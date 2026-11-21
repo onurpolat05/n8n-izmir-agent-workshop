@@ -34,7 +34,7 @@ Cevabın üstündeki **"tool calls"** satırına tıkla: agent hangi aracı, han
 
 ✅ Kordon sorusunda iki aracın çağrıldığını görüyorsan checkpoint 2 tamam.
 
-Bak: Hangi aracın çağrılacağını sen söylemedin. Agent soruyu okudu ve **kendisi karar verdi**. W1'de bu kararı sen vermiştin, her adımı sen dizmiştin.
+Bak: Hangi aracın çağrılacağını sen söylemedin. Agent soruyu okudu ve **kendisi karar verdi**. Bir workflow'da bu kararı kuran kişi verir, her adımı o dizer.
 
 ## Deney (vaktin varsa)
 

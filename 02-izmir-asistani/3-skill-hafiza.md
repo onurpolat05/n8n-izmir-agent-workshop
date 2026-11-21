@@ -56,7 +56,7 @@ Agent yeni sohbette seni hatırladıysa bu **hafızadır**. Formatı her seferin
 
 ## Bonus · Her sabah 08:00
 
-Hızlı bitirenler için: Build sekmesinde **Triggers → Add schedule**.
+Evde dene: Build sekmesinde **Triggers → Add schedule**. Zamanlanmış görevin çalışması için agent'ı yayınlaman (**Publish**) gerekebilir; salonda yayınlamıyoruz.
 
 | Alan | Değer |
 |------|-------|

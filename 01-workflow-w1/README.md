@@ -2,7 +2,7 @@
 
 Biri formu doldurur → bilgileri Google Sheets'e yazılır → kişiye özel teşekkür maili gider → başvuru kurumsalsa ekibe ayrıca bildirim düşer.
 
-Bugün bunu **baştan kurmuyoruz**. Workflow'un nasıl düşündüğünü görmek için hazır dosyayı içeri alıp çalıştırıyoruz.
+Salonda bunu kurmuyoruz; sahnede çalışan bir workflow'u birlikte inceliyoruz. Bu klasör **evde denemen için**: workflow'un nasıl düşündüğünü görmek istersen hazır dosyayı içeri alıp çalıştır.
 
 ## İçeri alma
 

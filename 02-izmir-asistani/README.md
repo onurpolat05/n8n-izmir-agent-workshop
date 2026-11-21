@@ -11,7 +11,7 @@ Komut ezberlemen gerekmiyor: tek bir soru soruyorsun, hangi kaynağa bakacağın
 | 1 | Assistant'a tek mesajla agent'ı kurdur | Assistant · model · instructions · tools · web search | [1-kurdur.md](1-kurdur.md) | "Merhaba, ne yapabilirsin?" sorusuna cevap geliyor |
 | 2 | Kurulanı oku, sonra dene | instructions · araç açıklaması · tool calls | [2-oku-dene.md](2-oku-dene.md) | "Kordon'da koşsam?" sorusunda iki araç birden çağrılıyor |
 | 3 | "Sabah brifi" skill'i + hafıza | skills · cross-session memory | [3-skill-hafiza.md](3-skill-hafiza.md) | Yeni sohbette seni hatırlayıp brif formatında cevap veriyor |
-| Bonus | Her sabah 08:00'de brif | triggers · schedule | [3-skill-hafiza.md](3-skill-hafiza.md#bonus-her-sabah-0800) | Hızlı bitirenler için |
+| Bonus | Her sabah 08:00'de brif | triggers · schedule | [3-skill-hafiza.md](3-skill-hafiza.md#bonus-her-sabah-0800) | Evde dene (yayın gerekebilir) |
 
 Her checkpoint'te deneyeceğin sorular: [ornek-sorular.md](ornek-sorular.md) · Araçları elle eklemek için: [araclar.md](araclar.md)
 
