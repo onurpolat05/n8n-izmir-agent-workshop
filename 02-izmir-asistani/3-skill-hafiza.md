@@ -4,7 +4,9 @@
 
 ## 3a · "Sabah brifi" skill'i
 
-Build sekmesinde **Skills → Add skill** seç.
+Build sekmesinde **Skills → Add skill** seç. Açılan pencerede en alttaki **Add manually** bağlantısına tıkla ve aşağıdaki üç alanı kopyala-yapıştır.
+
+> Kısa yol: bu repodaki [`sabah-brifi/SKILL.md`](sabah-brifi/SKILL.md) dosyasını indirip pencerede **Upload SKILL.md** ile yükleyebilirsin. Üç alan dosyada hazır.
 
 **Adı:** `sabah-brifi`
 
