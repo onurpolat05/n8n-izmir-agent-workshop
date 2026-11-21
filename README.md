@@ -53,5 +53,6 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 
 ## Etkinlikten sonra
 
+- Geri bildirim: [iki dakikalık form](https://docs.google.com/forms/d/e/1FAIpQLSfKn_iBt8m7M590Tcas1ryM2gccBqMTh605mBK0OnrxThqtMg/viewform). Bir sonraki etkinliğin konusunu buradan seçiyoruz.
 - n8n Türkiye topluluğu: [LinkedIn grubu](https://www.linkedin.com/groups/39722002/). Sonraki etkinlikler burada duyuruluyor.
 - Sonraki etkinlik: n8n Women+ İzmir, 12 Aralık
