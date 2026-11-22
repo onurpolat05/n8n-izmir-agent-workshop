@@ -1,6 +1,6 @@
 # n8n İzmir Workshop: Uçtan Uca AI Agent
 
-21 Kasım 2026 · İzLab · n8n İzmir topluluğu
+21 Kasım 2026 · İzmir Büyükşehir Belediyesi İzLab Dijital Deneyim Merkezi · n8n İzmir topluluğu
 
 Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruyorsun: havaya, hava kalitesine, denize ve nöbetçi eczanelere bakıp tek soruna cevap veren bir agent. Kod yazmıyorsun; takıldığın her yerde bu repodaki hazır metni kopyalayıp yapıştırarak devam edebilirsin.
 
