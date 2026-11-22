@@ -1,6 +1,6 @@
 # n8n İzmir Workshop: Uçtan Uca AI Agent
 
-21 Kasım 2026 · FabrikaLab İzmir · n8n İzmir topluluğu
+21 Kasım 2026 · İzLab · n8n İzmir topluluğu
 
 Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruyorsun: havaya, hava kalitesine, denize ve nöbetçi eczanelere bakıp tek soruna cevap veren bir agent. Kod yazmıyorsun; takıldığın her yerde bu repodaki hazır metni kopyalayıp yapıştırarak devam edebilirsin.
 
@@ -44,6 +44,7 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 | [02-izmir-asistani](02-izmir-asistani/) | Ana uygulama: kurulum mesajı, 4 araç, skill, örnek sorular |
 | [03-remix](03-remix/) | Asistanı kendi işine uyarlama fikirleri |
 | [04-bonus-telegram](04-bonus-telegram/) | Eve dönünce: asistanı Telegram'a bağla |
+| [sizden-gelenler](sizden-gelenler/) | Katılımcıların paylaştığı asistanlar ve remix'ler; senin PR'ını da bekliyor |
 
 ## Takıldım, ne yapayım?
 
@@ -53,6 +54,8 @@ Bugün n8n'in **Agents** özelliğiyle kendine bir İzmir şehir asistanı kuruy
 
 ## Etkinlikten sonra
 
+- **Kurduğun asistanı paylaş:** [sizden-gelenler](sizden-gelenler/) klasörüne pull request aç. Git bilmesen de olur, nasıl yapılacağı klasörün içinde yazıyor.
+- **Fotoğraflar:** [etkinlik albümü](https://drive.google.com/drive/folders/1wa__AUahMi9xtL5-mXGaVO7aU2w1T-eS). Senin çektiklerini de [Sizden Gelenler](https://drive.google.com/drive/folders/1FgobKYki5KV7LTy-6r-DLclmZa7JMXes) klasörüne bekliyoruz.
 - Geri bildirim: [iki dakikalık form](https://docs.google.com/forms/d/e/1FAIpQLSfKn_iBt8m7M590Tcas1ryM2gccBqMTh605mBK0OnrxThqtMg/viewform). Bir sonraki etkinliğin konusunu buradan seçiyoruz.
 - n8n Türkiye topluluğu: [LinkedIn grubu](https://www.linkedin.com/groups/39722002/). Sonraki etkinlikler burada duyuruluyor.
 - Sonraki etkinlik: n8n Women+ İzmir, 12 Aralık
